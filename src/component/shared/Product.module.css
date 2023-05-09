@@ -1,0 +1,128 @@
+.container {
+    background-color: #e9eaeb;
+    border: 1px solid #d7e9f6;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 250px;
+    margin: 0 10px 50px;
+    text-align: center;
+    transition: all 0.2s ease;
+
+}
+
+.container:hover {
+    box-shadow: 5px 5px 7px #c5d6e6;
+}
+
+.cardImage {
+    width: 230px;
+    height: 220px;
+    margin: 10px;
+}
+
+.container h3 {
+    color: #5959fd;
+    text-align: left;
+    margin: 25px 20px 15px;
+}
+
+.container p {
+    color: #05a59d;
+    font-weight: 600;
+    text-align: left;
+    margin: 25px 20px 15px;
+}
+
+.linkContainer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 35px 20px 20px;
+}
+
+.linkContainer a {
+    text-decoration: none;
+    color: #672c87;
+    font-size: 0.95rem;
+    font-weight: 600;
+    transition: all 0.1s ease-in;
+}
+
+.linkContainer a:hover {
+    color: #8f57ae;
+}
+
+.buttonContainer button {
+    font-size: 0.7rem;
+    background-color: #1b63f3;
+    border: none;
+    height: 30px;
+    width: 80px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 12px -2px #1111da;
+    margin-left: 5px;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 600;
+
+}
+
+.buttonContainer button:hover {
+    background-color: #6c9cfe;
+}
+
+.smallButton {
+    width: 30px !important;
+    font-size: 1.6rem !important;
+    font-weight: 500;
+    line-height: 30px;
+
+}
+
+.smallButton img {
+    width: 20px;
+}
+
+
+.counter {
+    display: inline-block;
+    width: 20px;
+    margin-left: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #0295b6;
+}
+
+
+@media (max-width: 1000px) {
+    .container {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 45%;
+    }
+
+    .cardImage {
+        width: 200px;
+    }
+}
+
+@media (max-width: 555px) {
+    .container {
+        width: 70%;
+    }
+
+    .cardImage {
+        width: 230px;
+    }
+}
+
+@media (max-width: 400px) {
+    .container {
+        width: 90%;
+    }
+}

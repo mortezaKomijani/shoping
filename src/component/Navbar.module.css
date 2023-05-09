@@ -1,0 +1,78 @@
+.mainContainer {
+    width: 100%;
+    background-color: #f2f0f0;
+    position: fixed;
+    margin: 0 0 100px;
+    box-shadow: 7px 7px 7px #909091;
+    top: 0;
+}
+
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 15px 180px;
+}
+
+.productContainer {
+    text-decoration: none;
+    color: #3c51bb;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-bottom: 3px solid #3c51bb;
+    border-radius: 3px;
+    padding: 0 2px;
+    transition: all 0.2s ease;
+}
+
+.productContainer:hover {
+    color: #6278e1;
+    border-bottom-color: #6278e1;
+}
+
+.iconContainer {
+    position: relative;
+}
+
+.iconContainer img {
+    width: 40px;
+    color: #3c51bb;
+}
+
+.iconContainer span {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    background-color: #3c51bb;
+    color: #fff;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    line-height: 18px;
+    font-size: 0.75rem;
+    font-weight: bold;
+
+}
+
+
+@media (max-width : 1200px) {
+    .container {
+        padding: 15px 80px;
+    }
+}
+
+@media (max-width : 768px) {
+
+    .container {
+        padding: 15px 40px;
+    }
+
+}
+
+@media(max-width: 555px) {
+    .container {
+        padding: 15px 20px;
+    }
+}
